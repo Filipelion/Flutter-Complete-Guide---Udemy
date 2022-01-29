@@ -26,7 +26,10 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    var questions = [
+    // const é imutavel desde a compilação
+    // final é imutavel depois de atibuido um valor
+
+    const questions = [
       {
         'questionText': 'What\'s your favorite color?',
         'answers': ['Black', 'Red', 'Green', 'White'],
