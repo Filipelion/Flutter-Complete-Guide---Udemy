@@ -31,10 +31,7 @@ class Result extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
           TextButton(
-            style: ButtonStyle(
-              backgroundColor: MaterialStateProperty.all(Colors.white),
-              foregroundColor: MaterialStateProperty.all(Colors.blue),
-            ),
+            style: TextButton.styleFrom(primary: Colors.blue),
             onPressed: resetHandler,
             child: Text('Restart Quiz!'),
           )
